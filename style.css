@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: digital;
+    src: url(digital-7.ttf);
+}
+
+body{
+    background-color: #ddd;
+}
+
+#clock{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 70px;
+    font-family: digital;
+}
+
+.time{
+    width: 150px;
+    height: 150px;
+    background-color: #aaa;
+    text-align: center;
+    line-height: 220%;
+    border-radius: 5px;
+    box-shadow: 3px 3px 30px #656565;
+}
